@@ -1,0 +1,137 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bebas Neue", sans-serif;
+    font-style: normal;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 28px rgba(0, 3, 202, 0.2);
+    background-color: rgb(255, 255, 255);
+}
+
+.left-itens{
+    background-color: blue;
+    padding: 50px;
+    border-radius: 0px 50px ;
+    box-shadow: 10px 0px 20px rgb(77, 77, 77);
+}
+
+.left-itens h3{
+    font-size: 30px;
+    font-weight: 100;
+    color: white;
+    padding-bottom: 60px;
+    align-items: center;
+}
+.left-itens p{
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 200px;
+}
+
+.btn-goin{
+    border: 1px solid rgba(252, 252, 252, 0.514);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.9s;
+
+}
+
+.btn-goin:hover{
+  background-color: #2980b9;
+  transform: scale(1.1); 
+
+}
+
+.left-itens .btn-goin a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.right-itens{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right-itens h2{
+    padding-top: 25px;
+    color: blue;
+}
+
+.right-itens h3{
+    color: blue;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputs .name input{
+    padding: 8px;
+      width: 300px;
+      padding-bottom: 5px;
+}
+
+.inputs .name{
+      padding-bottom: 12px;
+}
+
+.inputs .email input{
+    padding: 8px;
+      width: 300px;
+      padding-bottom: 5px;
+}
+
+.inputs .email{
+    padding-bottom: 12px;
+}
+
+.inputs .password input{
+    padding: 8px;
+      width: 300px;
+}
+
+.inputs .password {
+    padding-bottom: 16px;
+}
+
+.btn-register a{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 3px 40px;
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 100;
+}
+
+.btn-register{
+    padding-top: 12px;
+}
+
+
+
